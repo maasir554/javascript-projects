@@ -19,4 +19,4 @@ from codewithharry.com. oare projects @ https://github.com/maasir554
 
 
 **dont forget to use git fetch to clone this to your device.**
-** use pull request insted to update local repo and sync with this online repo (just learning git & github )**
+**use pull request insted to update local repo and sync with this online repo (just learning git & github )**
