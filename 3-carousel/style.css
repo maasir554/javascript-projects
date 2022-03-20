@@ -1,0 +1,121 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  min-height: 100vh;
+  justify-content: center;
+}
+::selection {
+  color: white;
+  background-color: deeppink;
+}
+button {
+  background-color: white;
+  border: 1px solid deeppink;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  transition: all linear 0.2s;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  background-color: deeppink;
+  color: white;
+  transition: all linear 0.2s;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  padding: 10px;
+  border: 1px solid deeppink;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* min-height: 80vh; */
+}
+#container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 0px;
+}
+#personImg {
+  width: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0px solid black;
+  border-radius: 50%;
+  align-self: center;
+  max-width: 300px;
+}
+#personName {
+  text-align: center;
+  margin: 5px;
+}
+#personJob {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 5px;
+  font-size: 14px;
+  color: deeppink;
+  font-weight: 500;
+}
+#personComment {
+  text-align: center;
+  margin: 5px;
+  color: black;
+  background-color: rgba(255, 20, 145, 0.103);
+  padding: 20px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  border-radius: 10px;
+  width: 100%;
+  line-height: 30px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-end;
+  width: 100%;
+  margin-top: 10px;
+  align-self: center;
+}
+#personDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  main {
+    width: 90vw !important;
+  }
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid deeppink;
+  border-radius: 0px;
+}
