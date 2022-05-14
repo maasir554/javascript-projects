@@ -1,5 +1,9 @@
 # javascript-projects
 is repo which will only have apps made using vanilla (HTML, CSS and) **javascript**..
+1. https://maasir554.github.io/javascript-projects/3-carousel/
+2. https://maasir554.github.io/javascript-projects/2-counter/
+3. https://maasir554.github.io/javascript-projects/1-bg-color/
+
 
 # About the project-3 (Reviews project)
 this vanilla javascript project was made on 20th of March, 2022, after my final practical exams of class XII board. I wanted to make a Rich Text Editor but ended up 
